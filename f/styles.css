@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #000080; /* Bordo */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #800000; /* Lacivert */
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+section img {
+    width: 300px; /* Tüm fotoğraflar 300px genişliğinde olacak */
+    height: auto; /* Yükseklik otomatik olarak ayarlanacak */
+    margin: 10px; /* Fotoğraflar arasında boşluk bırakmak için */
+    border: 2px solid #000080; /* Lacivert çerçeve */
+    border-radius: 8px; /* Çerçevelere köşe yuvarlama */
+}
+
+
+footer {
+    background-color: #000080; /* Bordo */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Metinleri ortalar */
+}
+
+#contact-form label, 
+#contact-form input, 
+#contact-form textarea, 
+#contact-form button {
+    width: 100%; /* Genişliği tam yapar */
+    max-width: 400px; /* Maksimum genişliği 400px yapar */
+}
+
+#contact-form input, 
+#contact-form textarea {
+    margin-top: 10px; /* Üstten boşluk bırakır */
+    padding: 10px;
+}
+
+#contact-form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #000080; /* Lacivert */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
